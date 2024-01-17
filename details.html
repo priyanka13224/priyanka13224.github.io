@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body{
+      background-color: white;
+      color: black;
+    }
+  .heading{
+    text-align: right;
+
+  }
+  .container{
+    margin-left: 10px;
+  }
+  .GayathriPriyanka{
+    margin-left: 650px;
+	top: 85px;
+  }
+
+  .heading h2{
+    font-size: 47px;
+  }
+  .vertical{
+    border-left: 4px solid #000000;
+    height: 90px;
+	position: absolute;
+	margin-left: 1000px;
+	top: 83px;
+  }
+  .contactDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    top: -46px;
+	left: 1100px;
+  }
+
+  .phNo {
+    flex: 1; /* Adjusted flex value to allow space for the "place" div */
+  }
+  .project{
+    border: 1px solid black;
+    margin: 10px;
+    width: 1100px;
+  }
+  .certificates{
+    border: 1px solid black;
+    margin: 10px;
+    width: 1100px;
+  }
+  .education{
+    border: 1px solid black;
+    margin: 10px;
+    width: 1100px;
+  }
+  .skills{
+    border: 1px solid black;
+    margin: 10px;
+    width: 1100px;
+  }
+  .hobbies{
+    border: 1px solid black;
+    margin: 10px;
+    width: 1100px;
+  }
+
+.divBack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100px;
+  cursor: pointer;
+}
+#back{
+  text-decoration: none;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+/* #back:hover{
+  background-color: white;
+  transition: 1s;
+} */
+.backBtn:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid white;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid white;
+
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.GayathriPriyanka{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 1px;
+}
+#themer{
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+
+}
+#designPic{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+}
+  </style>
+</head>
+<body>
+
+    <div class="GayathriPriyanka" style="width: 708px; height: 108px; text-align: center; color: #000000; font-size: 35px; font-family: Inter; font-weight: 800; word-wrap: break-word">Gayathri Priyanka
+   
+    </div>
+    <div class="vertical"></div>
+    <div class="contactDetails">
+      <div class="phNo">
+        <p>Ph No: +91923608054<br> Email: gayathripriyanka12@gmail.com </p>
+          <p>Vijayawada, 502355</p>
+      </div>
+    </div>
+    <div class="mypic">
+      <img class="Mypic2" style="width: 156px; height: 155px; left: 14px; top: 29px; position: absolute; border-radius: 350px" src="mypicture.jpg" />  
+    </div>
+	<!-- Certificates Segment -->
+	<div class="container">
+    <div class="certificates">
+        <h2>Certifications</h2>
+            <p>1. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>2. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>3. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>  
+			 
+      </div>
+
+  
+    </div>
+    
+    <!-- Educational Segment -->
+    	<div class="container">
+	<div class="education">
+        <h2>Educational Background</h2>
+		    <p>1. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>2. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>3. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+        
+  
+    </div>
+	</div>
+	
+	<!-- Projects Segment -->
+		<div class="container">
+	<div class="project">
+        <h2>Projects</h2>
+		    <p>1. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>2. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>3. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>  
+
+      </div>
+	 
+	</div>
+    
+    <!-- Skills Segment -->
+		<div class="container">
+	<div class="skills">
+        <h2>Skills</h2>
+		    <p>1. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>2. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>3. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>  
+
+      </div>
+	 
+	</div>
+  
+
+    <!-- Hobbies and Interests Section -->
+		<div class="container">
+	<div class="hobbies">
+        <h2>Hobbies and Interests</h2>
+		    <p>1. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>2. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>
+			   
+			<p>3. Role Title
+               Roem ipsum dolor sit amet consectetur adipisicing elit.
+			   Sapiente necessitatibus eum vel odio quibusdam, ex laudantium 
+               perferendis dolorum temporibus ipsam nisi expedita velit dignissimos veniam!</p>  
+
+      </div>
+	 
+	</div>
+    
+    
+    <div class="divBack">
+      <div class="backBtn">
+        <a href="index.html" id="back">Back</a>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+</html>
